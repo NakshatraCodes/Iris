@@ -1,0 +1,21 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "imdb-api": "^4.0.3",
+    "inshorts-api": "^1.0.0",
+    "newsapi": "^2.4.0",
+    "socket.io": "^2.3.0",
+    "weather-js": "^2.0.0"
+  }
+}

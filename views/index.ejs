@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iris</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+	
+</head>
+<body>
+	
+	<div class="container">
+		<center><h1>IRIS VA v1.4</h1></center>
+		<div class="center">
+			<button onclick="newSpeak('Hello there.')" style="margin: auto">Speak</button>
+			<button onclick="startRecog()">Listen</button>
+			<button onclick="stopRecog()">Stop</button>
+			<select id="voice-select">
+			  
+			</select>
+		</div>
+	</div>
+	
+</body>
+	<script src="speechRecognition.js"></script>
+</html>
